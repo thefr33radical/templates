@@ -1,5 +1,5 @@
 ## GIT
-#### Iinitial configuration
+#### Initial configuration
 ```sh
 git config --global user.name "name"
 git config --local user.email "email"
@@ -14,13 +14,13 @@ git config --global --unset-all
 ```
 ####  Adding ssh keys 
 ```sh
-* ssh-keygen -t rsa 
-* ssh-add "id_rsa"
+1. ssh-keygen -t rsa 
+2. ssh-add "id_rsa"
     ssh-agent -s
     ssh-add ~/.ssh/id_rsa
-* add public key to git repository
+3. add public key to git repository
 ```
-#### creating git repository 
+#### Creating git repository 
 ```sh
 
 (existing project)
@@ -49,10 +49,8 @@ git commit -a -m "removed folder"
 git push origin master
 ```
 
-
---------------------------------------------------------------------------------------------------
-# Grive
-
+# Grive for Linux
+```sh
 sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-get update
 sudo apt-get install grive
@@ -68,5 +66,6 @@ cd ~/google_drive
 grive -a
 
 grive
+```
 
 
