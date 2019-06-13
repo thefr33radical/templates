@@ -1,6 +1,6 @@
-GIT
+## GIT
 
-<<
+
 git config --global user.name <name>
     git config --local user.email <email>
 git config --system core.editor <editor>
