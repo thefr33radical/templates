@@ -1,20 +1,17 @@
 ## GIT
-
 #### git initial configuration
 ```sh
 git config --global user.name "name"
 git config --local user.email "email"
 git config --system core.editor "editor"
 ```
-
-#### logout git
+#### git remove user settings/logout cli
 ```sh
 git config --global --unset user.name
 git config --global --unset user.email
 or 
 git config --global --unset-all
 ```
-
 ####    adding ssh keys 
 ```sh
 1. ssh-keygen -t rsa 
@@ -23,27 +20,32 @@ git config --global --unset-all
     =>ssh-add ~/.ssh/id_rsa
 3. add public key to git repository
 ```
+#### creating git repository 
+```sh
 
-1.existing project << download existing project >> 
-git clone git@bitbucket.org:gowt1ham/ba_ranking.git
-cd ba_ranking
+(existing project)
+git clone git@xyz.org:user_name/repo_name.git
+cd repo_name
 echo "# My project's README" >> README.md
 git add README.md
-git commit -m "Initial commit"
-git push -u origin masterzz
+git commit -m "initial commit"
+git push -u origin master
 
-2. from scratch
+(from scratch)
 git init
 git add README.md
-git commit -m "first commit"
-git remote add origin git@github.com:thefr33radical/drive.git
+git commit -m "initial commit"
+git remote add origin git@github.com:thefr33radical/repo_name.git
 git push -u origin master
+```sh
 
 3. Delete remote folder
 rm -rf folder
 git add .
 git commit -a -m "removed folder"
 git push origin master
+
+
 --------------------------------------------------------------------------------------------------
 # Grive
 
