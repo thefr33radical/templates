@@ -1,29 +1,30 @@
 ## GIT
-#### git initial configuration
+#### Iinitial configuration
 ```sh
 git config --global user.name "name"
 git config --local user.email "email"
 git config --system core.editor "editor"
 ```
-#### git remove user settings/logout cli
+#### Remove user settings/logout cli
 ```sh
 git config --global --unset user.name
 git config --global --unset user.email
 or 
 git config --global --unset-all
 ```
-####    adding ssh keys 
+####  Adding ssh keys 
 ```sh
-1. ssh-keygen -t rsa 
-2.  =>ssh-add "id_rsa"
-    =>ssh-agent -s
-    =>ssh-add ~/.ssh/id_rsa
-3. add public key to git repository
+* ssh-keygen -t rsa 
+* ssh-add "id_rsa"
+    ssh-agent -s
+    ssh-add ~/.ssh/id_rsa
+* add public key to git repository
 ```
 #### creating git repository 
 ```sh
 
 (existing project)
+
 git clone git@xyz.org:user_name/repo_name.git
 cd repo_name
 echo "# My project's README" >> README.md
@@ -32,18 +33,21 @@ git commit -m "initial commit"
 git push -u origin master
 
 (from scratch)
+
 git init
 git add README.md
 git commit -m "initial commit"
 git remote add origin git@github.com:thefr33radical/repo_name.git
 git push -u origin master
-```sh
+```
 
-3. Delete remote folder
+#### Delete remote folder
+```sh
 rm -rf folder
 git add .
 git commit -a -m "removed folder"
 git push origin master
+```
 
 
 --------------------------------------------------------------------------------------------------
