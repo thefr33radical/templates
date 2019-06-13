@@ -1,18 +1,28 @@
 ## GIT
 
+#### git initial configuration
 ```sh
-git config --global user.name <name>
-    git config --local user.email <email>
-git config --system core.editor <editor>
+git config --global user.name "name"
+git config --local user.email "email"
+git config --system core.editor "editor"
 ```
 
-<<    adding ssh keys    >>
-1.ssh-keygen -t rsa 
-2.
-=>ssh-add "id_rsa"
-=>ssh-agent -s
-=>ssh-add ~/.ssh/id_rsa
+#### logout git
+```sh
+git config --global --unset user.name
+git config --global --unset user.email
+or 
+git config --global --unset-all
+```
 
+####    adding ssh keys 
+```sh
+1. ssh-keygen -t rsa 
+2.  =>ssh-add "id_rsa"
+    =>ssh-agent -s
+    =>ssh-add ~/.ssh/id_rsa
+3. add public key to git repository
+```
 
 1.existing project << download existing project >> 
 git clone git@bitbucket.org:gowt1ham/ba_ranking.git
@@ -53,11 +63,4 @@ grive -a
 
 grive
 
-# logout git
 
-git config --global --unset user.name
-git config --global --unset user.email
-
-or 
-
-git config --global --unset-all
