@@ -49,7 +49,7 @@ git commit -a -m "removed folder"
 git push origin master
 ```
 
-# Grive for Linux
+#### Grive for Linux
 ```sh
 sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-get update
