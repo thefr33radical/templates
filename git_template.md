@@ -43,9 +43,9 @@ git push -u origin master
 
 #### Delete remote folder
 ```sh
-rm -rf folder
-git add .
-git commit -a -m "removed folder"
+git checkout master
+git rm -r folder-name
+git commit -m "Remove duplicated directory"
 git push origin master
 ```
 
