@@ -2,8 +2,8 @@
 
 * https://streamsets.com/blog/creating-dataflow-pipelines-amazon-kinesis/
 
-```
 #### Decoding Kinesis Stream Data
+```
 def Decode_Kinesis(kinesis_stream_data):
     """
     kinesis_stream_data : base64 encoded text
