@@ -10,5 +10,20 @@
 ```
 #### With Library Dependencies
 ```
-pip3 install --install-option="--prefix=$PREFIX_PATH" package_name --ignore-installed
+1.sudo pip3 install -t ~/....path to folder.../package numpy --ignore-installed
+2.cd package
+3.zip function.zip *
+4.zip -g function.zip function.py
+5.aws lambda update-function-code --function-name [I]function name [/I]--zip-file fileb://function.zip
+```
+
+#### Using VirtualEnv
+```
+1.source v-env/bin/activate
+2.pip install XYZ
+3.deactivate
+4.cd v-env/lib/python3.7/site-packages 
+5.zip function.zip *
+6.zip -g function.zip function.py
+7.aws lambda update-function-code --function-name [I]function name [/I]--zip-file fileb://function.zip
 ```
