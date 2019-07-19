@@ -1,8 +1,6 @@
 
-import boto3
-import logging
-
-# Upload File to S3 in CSV format from list to CSV
+#### Upload File to S3 in CSV format from list to CSV
+```
 def uploadS3(value=[],timestamp=[],bucketname="",path=""):
     """
     value : list
@@ -28,3 +26,4 @@ def uploadS3(value=[],timestamp=[],bucketname="",path=""):
     except Exception as e:
         logging.error(e)
         return 0
+```
