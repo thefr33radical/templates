@@ -7,4 +7,12 @@ gedit ~/.aws/config
 gedit ~/.aws/credentials
 aws configure
 ```
+### CodeCOmmit
+#### References
+* https://docs.aws.amazon.com/codecommit/latest/userguide/getting-started-cc.html
+```
+git config --global credential.helper '!aws codecommit credential-helper $@'
+git config --global credential.UseHttpPath true
+git clone "repo"
+```
 
