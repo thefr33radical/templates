@@ -7,7 +7,7 @@ gedit ~/.aws/config
 gedit ~/.aws/credentials
 aws configure
 ```
-### CodeCOmmit
+### CodeCommit
 #### References
 * https://docs.aws.amazon.com/codecommit/latest/userguide/getting-started-cc.html
 ```
