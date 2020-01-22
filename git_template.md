@@ -15,9 +15,10 @@ git config --global --unset-all
 ####  Adding ssh keys 
 ```sh
 1. ssh-keygen -t rsa 
-2. ssh-add "id_rsa"
+2. ssh-add "KEY"
     ssh-agent -s
-    ssh-add ~/.ssh/id_rsa
+    eval $(ssh-agent -s)
+    ssh-add "PATH TO FILE"
 3. add public key to git repository
 ```
 #### Creating git repository 
