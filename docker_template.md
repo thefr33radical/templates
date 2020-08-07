@@ -79,10 +79,10 @@ sudo docker cp path_file_name [ImageID]:/path_file_name
 #Docker stop
 sudo docker container stop [ImageId]
 
-https://codefresh.io/docker-tutorial/build-docker-image-dockerfiles/
+sudo docker rm -f $(docker ps -a -q)
 
-launch docker on EC2
-https://www.ybrikman.com/writing/2015/11/11/running-docker-aws-ground-up/
+# Delete every Docker image
+sudo docker rmi -f $(docker images -q)
 
 ### References
 * https://codefresh.io/docker-tutorial/build-docker-image-dockerfiles/
