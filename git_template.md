@@ -68,6 +68,14 @@ grive -a
 
 grive
 ```
+#### Adding Specific Files
+```
+git add --update 
+will update or remove previously tracked files from the entire working tree. It will not add new files.
+
+git add -A 
+It will also update, remove previously tracked files, but it will also add new files.
+```
 
 #### REmove untracked Files
 ~~~
