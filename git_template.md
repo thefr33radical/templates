@@ -69,4 +69,18 @@ grive -a
 grive
 ```
 
+#### REmove untracked Files
+~~~
+git clean [-d] [-f] [-i] [-n] [-q] [-e <pattern>] [-x | -X] [--] <path>…​
+
+# Print out the list of files which will be removed (dry run)
+git clean -n
+
+# Delete the files from the repository
+git clean -f
+To remove directories, run git clean -f -d or git clean -fd
+To remove ignored files, run git clean -f -X or git clean -fX
+To remove ignored and non-ignored files, run git clean -f -x or git clean -fx
+~~~
+
 
