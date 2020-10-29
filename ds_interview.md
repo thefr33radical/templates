@@ -4,3 +4,5 @@ https://towardsdatascience.com/how-to-develop-a-credit-risk-model-and-scorecard-
 
 https://towardsdatascience.com/how-to-find-the-best-predictors-for-ml-algorithms-4b28a71a8a80
 https://towardsdatascience.com/how-to-effectively-predict-imbalanced-classes-in-python-e8cd3b5720c4
+
+https://pbs.twimg.com/media/EVzFzGQWkAAc2Dn?format=jpg&name=4096x4096lo
