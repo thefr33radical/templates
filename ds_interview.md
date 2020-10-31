@@ -13,6 +13,9 @@ https://pbs.twimg.com/media/EVzFzGQWkAAc2Dn?format=jpg&name=4096x4096lo
 * mathematicalmonk
 * khans academy
 * mitopencourseware
+```
+[Distributions](https://www.vosesoftware.com/riskwiki/Selectingtheappropriatedistributionsforyourmodel.php)
+```
 
 ### Deep Learning
 * [CS230 Deep Learning](https://cs230.stanford.edu/)
