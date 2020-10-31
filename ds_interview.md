@@ -6,3 +6,10 @@ https://towardsdatascience.com/how-to-find-the-best-predictors-for-ml-algorithms
 https://towardsdatascience.com/how-to-effectively-predict-imbalanced-classes-in-python-e8cd3b5720c4
 
 https://pbs.twimg.com/media/EVzFzGQWkAAc2Dn?format=jpg&name=4096x4096lo
+
+
+### Statistics
+* brandon foltz
+* mathematicalmonk
+* khans academy
+* mitopencourseware
