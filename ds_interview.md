@@ -15,7 +15,7 @@ https://pbs.twimg.com/media/EVzFzGQWkAAc2Dn?format=jpg&name=4096x4096lo
 * mitopencourseware
 
 ### Deep Learning
-* CS230 Deep Learning
+* [CS230 Deep Learning](https://cs230.stanford.edu/)
 * 
 
 ### Machine Learning
