@@ -14,7 +14,7 @@ https://pbs.twimg.com/media/EVzFzGQWkAAc2Dn?format=jpg&name=4096x4096lo
 * khans academy
 * mitopencourseware
 #### Topics
-* [Distributions](https://www.vosesoftware.com/riskwiki/Selectingtheappropriatedistributionsforyourmodel.php) [2](https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/) [3](https://machinelearningmastery.com/continuous-probability-distributions-for-machine-learning/) [4](https://machinelearningmastery.com/what-are-probability-distributions/)
+* Distributions : [1](https://www.vosesoftware.com/riskwiki/Selectingtheappropriatedistributionsforyourmodel.php) [2](https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/) [3](https://machinelearningmastery.com/continuous-probability-distributions-for-machine-learning/) [4](https://machinelearningmastery.com/what-are-probability-distributions/)
 
 
 ### Deep Learning
