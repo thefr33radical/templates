@@ -15,6 +15,7 @@ https://pbs.twimg.com/media/EVzFzGQWkAAc2Dn?format=jpg&name=4096x4096lo
 * mitopencourseware
 #### Topics
 * [Distributions](https://www.vosesoftware.com/riskwiki/Selectingtheappropriatedistributionsforyourmodel.php)
+* [Distributions2](https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/)
 
 
 ### Deep Learning
