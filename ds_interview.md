@@ -24,3 +24,6 @@ https://pbs.twimg.com/media/EVzFzGQWkAAc2Dn?format=jpg&name=4096x4096lo
 ### NLP
 * Manning
 
+### Prep Questions
+
+* [Dezyre](https://www.dezyre.com/)
