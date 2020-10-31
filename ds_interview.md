@@ -13,3 +13,14 @@ https://pbs.twimg.com/media/EVzFzGQWkAAc2Dn?format=jpg&name=4096x4096lo
 * mathematicalmonk
 * khans academy
 * mitopencourseware
+
+### Deep Learning
+* CS230 Deep Learning
+* 
+
+### Machine Learning
+
+
+### NLP
+* Manning
+
