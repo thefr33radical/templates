@@ -9,17 +9,14 @@ https://pbs.twimg.com/media/EVzFzGQWkAAc2Dn?format=jpg&name=4096x4096lo
 
 
 ### Statistics
-* brandon foltz
-* mathematicalmonk
-* khans academy
-* mitopencourseware
+* brandon foltz *  mathematicalmonk * khans academy * mitopencourseware
 #### Topics
-* Distributions : [1](https://www.vosesoftware.com/riskwiki/Selectingtheappropriatedistributionsforyourmodel.php) [2](https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/) [3](https://machinelearningmastery.com/continuous-probability-distributions-for-machine-learning/) [4](https://machinelearningmastery.com/what-are-probability-distributions/)
+* Distributions : [1](https://www.vosesoftware.com/riskwiki/Selectingtheappropriatedistributionsforyourmodel.php) [2](https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/) [3](https://machinelearningmastery.com/continuous-probability-distributions-for-machine-learning/) [4](https://machinelearningmastery.com/what-are-probability-distributions/) [5](https://medium.com/@ODSC/transforming-skewed-data-for-machine-learning-90e6cc364b0)
 
 
 ### Deep Learning
 * [CS230 Deep Learning](https://cs230.stanford.edu/)
-* 
+
 
 ### Machine Learning
 
